@@ -53,7 +53,7 @@ header {
   margin: 0 1rem 1rem;
 
 }
-a {
+.botaover {
     text-align: center;
   display: block;
   width: 90%;
@@ -68,7 +68,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.botaover:hover {
   background-color: #e64a19;
 }
 
