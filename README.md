@@ -1,1 +1,2 @@
-# site-receitas
+# Site de receitas
+Repositório de receitas

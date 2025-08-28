@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ff7043;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem;
+
+}
+a {
+    text-align: center;
+  display: block;
+  width: 90%;
+  margin: 0 auto 1rem;
+  padding: 0.5rem;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: #e64a19;
+}
+
+.footer {
+ background-color: #e64a19; 
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500; /* Negrito moderado */
+  display: inline-flex; /* Alinha ícones e texto */
+  align-items: center; /* Alinha ícones e texto */
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #d35625; /* Cor de destaque ao passar o mouse */
+}
+
+.footer-links img {
+  width: 20px;/* Tamanho do ícone */
+  height: 20px;/* Tamanho do ícone */
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+  border-radius: 3px; /* Bordas arredondadas para o ícone */
+}
+
