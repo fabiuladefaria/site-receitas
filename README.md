@@ -1,4 +1,4 @@
-# 🍽️ Receita Fácil — Projeto Educacional
+# 🍽️ Receitas da Fabi — Projeto Educacional
 
 Este repositório contém um projeto fictício de um site de receitas, criado com fins **educacionais** para praticar habilidades de desenvolvimento web usando HTML e CSS.
 
@@ -40,3 +40,4 @@ Você pode clonar este repositório e abrir o arquivo `index.html` no seu navega
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repo-de-receitas.git
+
