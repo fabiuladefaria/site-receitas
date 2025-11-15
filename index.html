@@ -1,87 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/ff.png" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Receitas da Fabi</title>
+  <link rel="shortcut icon" href="img/logoReceitas.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Receitas da Fabi 🍲</h1>
-  </header>
 
+<header class="site-header">
+  <div class="container header-inner">
+      
+     
+    
+      <div class="brand-area">
+        <img src="img/logoReceitas.png" alt="Logo Receitas da Fabi" class="logo">
+        <h1 class="brand">Receitas da Fabi</h1>
+      </div>
+
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#doces">Doces</a>
+        <a href="#salgados">Salgados</a>
+      </nav>
+  </div>
+</header>
   <main class="container">
-    <div class="card">
-      <img src="img/bolo-cenoura.jpg" alt="Receita 1">
-      <h2>Bolo de Cenoura</h2>
-      <p>Delicioso bolo de cenoura com cobertura de chocolate.</p>
-      <a class="botaover" href="bolocenoura.html">Ver Receita</a>
-    </div>
+    <section id="sobre" class="sobre">
+      <h2>Bem-vindo(a) ao universo da gastronomia</h2>
+      <p>O seu cantinho de sabor, criatividade e boas memórias na cozinha! Aqui você encontra receitas simples, testadas e fáceis de seguir — doces e salgados para todas as ocasiões.</p>
+      <p class="lead">Pegue seu avental, escolha uma receita e venha cozinhar com a gente! 🥰</p>
+    </section>
 
-    <div class="card">
-      <img src="img/LASANHA-BOLONHESA.jpg" alt="Receita 2">
-      <h2>Lasanha bolonhesa</h2>
-      <p>Lasanha caseira recheada com muita carne e molho.</p>
-      <a class="botaover" href="lasanha.html">Ver Receita</a>
-    </div>
+    <section id="doces" class="cards-section">
+      <h2>Doces</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="img/bolo-cenoura.jpg" alt="Bolo de cenoura com cobertura de chocolate">
+          <h3>Bolo de Cenoura</h3>
+          <p>Delicioso bolo de cenoura com cobertura de chocolate.</p>
+          <a href="bolocenoura.html" class="btn">Ver receita</a>
+        </article>
 
-    <div class="card">
-      <img src="img/salada_tropical.jpg" alt="Receita 3">
-      <h2>Salada Tropical</h2>
-      <p>Salada refrescante com frutas e molho especial.</p>
-      <a class="botaover" href="saladatrop.html">Ver Receita</a>
-    </div>
+        <article class="card">
+          <img src="img/brigadeiro.jpg" alt="Brigadeiro clássico">
+          <h3>Brigadeiro</h3>
+          <p>Brownie crocante por fora e macio por dentro.</p>
+          <a href="brigadeiro.html" class="btn">Ver receita</a>
+        </article>
 
-    <div class="card">
-      <img src="img/COXINHAS.jpg" alt="Receita 3">
-      <h2>Coxinha de frango</h2>
-      <p>Nosso patrimonio cultural.</p>
-      <a class="botaover" href="coxinha.html">Ver Receita</a>
-    </div>
+        <article class="card">
+          <img src="img/brownie.jpg" alt="Brownie clássico">
+          <h3>Brownie</h3>
+          <p>Brownie crocante por fora e macio por dentro.</p>
+          <a href="brownie.html" class="btn">Ver receita</a>
+        </article>
 
-    <div class="card">
-      <img src="img/enroladinho.jpg" alt="Receita 3">
-      <h2>Enroladinho de queijo</h2>
-      <p>Delicioso enroladinho de presunto e queijo</p>
-      <a class="botaover" href="enroladinho.html">Ver Receita</a>
-    </div>
+        <article class="card">
+          <img src="img/pave.jpg" alt="Pavê de chocolate">
+          <h3>Pavê de Chocolate</h3>
+          <p>Pavê cremoso, perfeito para sobremesas em família.</p>
+          <a href="pave.html" class="btn">Ver receita</a>
+        </article>
 
-    <div class="card">
-      <img src="img/salada-de-macarrao.jpg" alt="Receita 3">
-      <h2>Salada de macarrão</h2>
-      <p>Salada de macarrão com legumes</p>
-      <a class="botaover" href="saladamacarrao.html">Ver Receita</a>
-    </div>
+        <article class="card">
+          <img src="img/pudim.jpg" alt="Pudim tradicional">
+          <h3>Pudim</h3>
+          <p>Clássico pudim de leite condensado.</p>
+          <a href="pudim.html" class="btn">Ver receita</a>
+        </article>
+      </div>
+    </section>
 
-    <div class="card">
-      <img src="img/torta-frango.jpg" alt="Receita 3">
-      <h2>Torta de frango</h2>
-      <p>Saborosa torta de frango molhadinha.</p>
-      <a class="botaover" href="tortafrango.html">Ver Receita</a>
-    </div>
+    <section id="salgados" class="cards-section">
+      <h2>Salgados</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="img/COXINHAS.jpg" alt="Coxinha de frango">
+          <h3>Coxinha de Frango</h3>
+          <p>Aquele quitute brasileiro que não pode faltar.</p>
+          <a href="coxinha.html" class="btn">Ver receita</a>
+        </article>
 
+        <article class="card">
+          <img src="img/LASANHA-BOLONHESA.jpg" alt="Lasanha à bolonhesa">
+          <h3>Lasanha Bolonhesa</h3>
+          <p>Lasanha caseira com molho de carne.</p>
+          <a href="lasanha.html" class="btn">Ver receita</a>
+        </article>
 
+        <article class="card">
+          <img src="img/enroladinho.jpg" alt="Enroladinho de queijo">
+          <h3>Enroladinho de Queijo</h3>
+          <p>Prático e gostoso — ótimo para lanches.</p>
+          <a href="enroladinho.html" class="btn">Ver receita</a>
+        </article>
+
+        <article class="card">
+          <img src="img/salada-de-macarrao.jpg" alt="Salada de macarrão">
+          <h3>Salada de Macarrão</h3>
+          <p>Refrescante e ótima para refeições leves.</p>
+          <a href="saladamacarrao.html" class="btn">Ver receita</a>
+        </article>
+
+        <article class="card">
+          <img src="img/salada_tropical.jpg" alt="Salada tropical">
+          <h3>Salada Tropical</h3>
+          <p>Frutas e folhas para uma combinação fresca.</p>
+          <a href="saladatropical.html" class="btn">Ver receita</a>
+        </article>
+
+        <article class="card">
+          <img src="img/torta-frango.jpg" alt="Torta de frango">
+          <h3>Torta de Frango</h3>
+          <p>Saborosa e prática para almoços e jantares.</p>
+          <a href="tortafrango.html" class="btn">Ver receita</a>
+        </article>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
-  <div class="footer-content">
-    <p>Desenvolvido por Fabiula De Faria © 2025</p>
-
-    <div class="footer-links">
-      <a href="mailto:fabiulafaria@gmail.com"  target="_blank">
-        <img src="img/email.png" alt="E-mail"> E-mail
-      </a>
-      <a href="https://github.com/fabiuladefaria" target="_blank">
-        
-        <img src="img/github.jpg" alt="GitHub"> GitHub
-      </a>
-      <a href="www.linkedin.com/in/fabiuladefaria" target="_blank">
-        <img src="img/linkedin.png" alt="LinkedIn"> LinkedIn
-      </a>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Desenvolvido por Fabiula De Faria © 2025</p>
+      <div class="footer-links">
+        <a href="mailto:fabiulafaria@gmail.com"><img src="img/email.png" alt=""> E-mail</a>
+        <a href="https://github.com/fabiuladefaria" target="_blank" rel="noopener"><img src="img/github.jpg" alt=""> GitHub</a>
+        <a href="https://www.linkedin.com/in/fabiuladefaria" target="_blank" rel="noopener"><img src="img/linkedin.png" alt=""> LinkedIn</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>
